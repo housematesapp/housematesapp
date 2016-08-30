@@ -29,15 +29,8 @@
     </div>
 
     <div class='no-account'>
-      Don't have an account? <%=  link_to 'Sign_up', new_user_url %> or use the
+      Don't have an account? <%=  link_to 'Sign_up', new_user_url %>
     </form>
-      <form action='<%=session_url%>' method="post" class='demo-user-form'>
-        <input type="hidden" name="authenticity_token" value= '<%=form_authenticity_token%>'>
-        <input type="hidden"  name="user[username]" value= 'demo-account'  >
-        <input type="hidden"  name="user[password]" value= '123456'  >
-        <input type="submit" value="Demo Account" class='demo-user-button'>
-      </form>
-
     </div>
 
 
