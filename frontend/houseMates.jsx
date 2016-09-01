@@ -11,6 +11,7 @@ var browserHistory = require('react-router').browserHistory;
 
 var routes = (
   <Route component={App} path = '/'>
+
   </Route>
 
 );
